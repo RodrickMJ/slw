@@ -1,0 +1,47 @@
+.loginForm {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1em;
+    border: 1px solid #000000;
+    border-radius: 1em;
+    background: #f9f9f9;
+    margin-top: 10%;
+  }
+  
+  .loginForm div {
+    margin-bottom: 1em;
+  }
+  
+  .loginForm label {
+    margin-bottom: .5em;
+    color: #333333;
+    display: block;
+  }
+  
+  .loginForm input {
+    border: 1px solid #CCCCCC;
+    padding: .5em;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .loginForm button {
+    padding: 0.7em;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .loginForm button:hover {
+    background-color: #0056b3;
+  }
+  
+  .optionsd{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }

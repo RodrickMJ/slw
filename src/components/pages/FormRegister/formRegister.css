@@ -1,0 +1,68 @@
+.xd{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contForm{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;  
+    align-items: center; 
+}
+
+.contForm .dateForm{
+    margin-top: 30px;
+    width: 80%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contForm .dateForm label{
+    font-size: 1.2rem;
+}
+
+.contForm .dateForm input{
+    width: 65%;
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.contForm .dateFormRol {
+    margin-top: 20px;
+    width: 80%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contForm .dateFormRol select{
+    width: 30%;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contForm button{
+    width: 25%;
+    height: 25px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(114, 156, 248);
+}
+
+.contForm button:hover{
+    opacity: 40%;
+    cursor: pointer;
+}
